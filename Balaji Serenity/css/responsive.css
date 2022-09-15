@@ -1,0 +1,321 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header-area {
+        padding: 0px 15px;
+        background-color: #fff;
+    }
+    .main-menu ul li a {
+        padding: 20px 17px;
+    }
+    .single-slider {
+        min-height: 800px;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    .slider-content {
+        /*padding-top: 35px;*/
+        margin-top: -150px;
+    }
+    .faq-box {
+        padding: 85px 40px;
+    }
+    .page-title-area {
+        padding-top: 250px;
+        padding-bottom: 150px;
+    }
+}
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .main-menu ul li a {
+        padding: 20px 14px;
+    }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area {
+        padding: 30px 40px;
+    }
+    .responsive {
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: -38px;
+    }
+    .responsive i {
+        color: #fff;
+        font-size: 25px;
+    }
+    #basic-nav {
+        display: none;
+        background: #fff;
+    }
+    .main-menu {
+        transform: translateY(20px);
+    }
+    .basic-menu {
+        text-align: left;
+    }
+    .main-menu ul li {
+        display: inline-block;
+        display: block;
+        border-bottom: 1px solid #f7f7f7;
+    }
+    .main-menu ul li a {
+        color: #707692;
+        padding: 12px 20px;
+        display: block;
+        font-size: 14px;
+    }
+    .header-area.sticky-menu {
+        padding: 15px 15px;
+    }
+    .services-wrapper {
+        padding: 55px 25px;
+        border: 2px solid #151a33;
+        transition: .3s;
+    }
+    .faq-img {
+        position: static;
+        min-height: 600px;
+    }
+    /* slider */
+    .single-slider {
+        min-height: 700px;
+    }
+    .slider-content h2 {
+        font-size: 55px;
+    }
+    .slider-content {
+        padding-top: 35px;
+    }
+    .slider-content span {
+        font-size: 17px;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .about-text {
+        padding-left: 15px;
+    }
+    .page-title-area {
+        padding-top: 250px;
+        padding-bottom: 150px;
+    }
+    .blog-share-icon a {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .conatct-post-form {
+        padding: 30px;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding: 30px 0;
+        background-color: #fff;
+    }
+    .responsive {
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: -38px;
+    }
+    .responsive i {
+        color: #000;
+        font-size: 25px;
+    }
+    #basic-nav {
+        display: none;
+        background: #fff;
+    }
+    .main-menu {
+        transform: translateY(20px);
+    }
+    .main-menu ul li {
+        display: inline-block;
+        display: block;
+        border-bottom: 1px solid #f7f7f7;
+    }
+    .main-menu ul li a {
+        color: #707692;
+        padding: 12px 20px;
+        display: block;
+        font-size: 14px;
+    }
+    .basic-menu {
+        text-align: left;
+    }
+    .header-area.sticky-menu {
+        padding: 15px 15px;
+    }
+    /* slider */
+    .single-slider {
+        min-height: 700px;
+    }
+    .slider-content h2 {
+        font-size: 55px;
+    }
+    .slider-content {
+        padding-top: 35px;
+    }
+    .slider-content span {
+        font-size: 17px;
+    }
+    .section-title h1 {
+        font-size: 40px;
+    }
+    .slider-active .slick-arrow {
+        left: 15px;
+    }
+    .slider-active .slick-next.slick-arrow {
+        left: auto;
+        right: 15px;
+    }
+    .about-text {
+        padding-left: 0;
+    }
+    .about-thumb img {
+        width: auto;
+    }
+    .bakix-video {
+        bottom: 25px;
+    }
+    .faq-img {
+        position: static;
+        min-height: 600px;
+    }
+    .faq-box {
+        padding: 120px 30px;
+    }
+    .work-process-area {
+        background-image: none !important;
+    }
+    .page-title-area {
+        padding-top: 250px;
+        padding-bottom: 150px;
+    }
+    .blog-share-icon a {
+        margin-right: 14px;
+    }
+    .basic-pagination {
+        margin-bottom: 60px;
+    }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .header-area {
+        padding: 30px 0;
+        background-color: #fff;
+    }
+    .responsive {
+        float: right;
+        display: block;
+        cursor: pointer;
+        margin-top: -38px;
+    }
+    .responsive i {
+        color: #000;
+        font-size: 25px;
+    }
+    #basic-nav {
+        display: none;
+        background: #fff;
+    }
+    .main-menu {
+        transform: translateY(20px);
+    }
+    .main-menu ul li {
+        display: inline-block;
+        display: block;
+        border-bottom: 1px solid #f7f7f7;
+    }
+    .main-menu ul li a {
+        color: #707692;
+        padding: 12px 20px;
+        display: block;
+        font-size: 14px;
+    }
+    .basic-menu {
+        text-align: left;
+    }
+    .header-area.sticky-menu {
+        padding: 15px 0px;
+    }
+    /* slider */
+    .single-slider {
+        min-height: 650px;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+    }
+    .slider-content span {
+        font-size: 14px;
+    }
+    .slider-content {
+        padding-top: 5px;
+    }
+    .slider-btn a {
+        margin-bottom: 10px;
+    }
+    .bakix-video {
+        padding: 0 15px;
+        bottom: 40px;
+    }
+    .section-title h1 {
+        font-size: 35px;
+    }
+    .about-text {
+        padding-left: 0;
+    }
+    .work-process-area {
+        background-image: none !important;
+    }
+    .faq-img {
+        position: static;
+        min-height: 600px;
+    }
+    .faq-box {
+        padding: 120px 15px;
+    }
+    .faq-box .btn-link {
+        padding: 26px 30px;
+    }
+    .faq-box .card-body {
+        padding: 0px 30px;
+    }
+    .faq-box .btn-link::before {
+        display: none;
+    }
+    .fact-area {
+        margin: 40px 10px;
+    }
+    .page-title-area {
+        padding-top: 250px;
+        padding-bottom: 150px;
+    }
+    .p-50 {
+        padding: 18px;
+    }
+    .blog-title {
+        font-size: 26px;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .p-50 {
+        padding: 30px;
+    }
+}
